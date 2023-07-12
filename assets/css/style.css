@@ -82,14 +82,6 @@ body .bg-success {
 	font-weight: 500 !important;
 }
 
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-	main {
-		max-width: 420px;
-	}
-}
-
 .aboutContainer {
 	width: 100%;
 	min-height: 100vh;
@@ -102,4 +94,17 @@ body .bg-success {
 .aboutWrapper {
 	display: flex;
 	gap: 40px;
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	main {
+		max-width: 420px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.aboutWrapper {
+		gap: 10px;
+	}
 }
