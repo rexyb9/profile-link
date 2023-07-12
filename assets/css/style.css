@@ -7,6 +7,29 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	scroll-behavior: smooth;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 10px;
+	background-color: #222222;
+}
+
+li {
+	list-style-type: none;
+	padding: 12px;
+}
+
+li>a {
+	color: #808080;
+}
+
+li>a:hover {
+	color: #ffffff;
+	transition: all .5s ease-in-out;
 }
 
 main {
